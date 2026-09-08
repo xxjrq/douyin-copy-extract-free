@@ -1,0 +1,13 @@
+{
+  "name": "douyin-copy-extract-free",
+  "version": "1.0.0",
+  "author": "xxjrq",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "self-test": "node scripts/douyin-copy-extract-free.mjs self-test"
+  }
+}

@@ -1,0 +1,9 @@
+interface:
+  display_name: "免费抖音视频图文文案提取"
+  short_description: "免费免第三方内容 API Key，提取抖音视频或图文可见文案"
+  icon_small: "./assets/icon-512.png"
+  icon_large: "./assets/icon-512.png"
+  brand_color: "#2563EB"
+  default_prompt: "使用 $douyin-copy-extract-free 提取这个抖音视频或图文链接当前可见的文案。"
+policy:
+  allow_implicit_invocation: true
