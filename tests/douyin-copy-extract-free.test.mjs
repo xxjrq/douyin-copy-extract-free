@@ -115,7 +115,7 @@ test("metadata, icon and repository files satisfy the release contract", async (
   const manifest = await readFile(path.join(root, "manifest.yaml"), "utf8");
   const agent = await readFile(path.join(root, "agents", "openai.yaml"), "utf8");
   assert(skill.startsWith("---\nname: douyin-copy-extract-free\n"));
-  assert(manifest.includes('version: "1.0.0"'));
+  assert(manifest.includes('version: "1.0.1"'));
   assert(agent.startsWith("interface:\n"));
   for (const icon of ["icon-512.png", path.join("assets", "icon-512.png")]) {
     const png = await readFile(path.join(root, icon));
