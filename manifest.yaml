@@ -1,7 +1,7 @@
 name: "douyin-copy-extract-free"
 display_name: "免费抖音视频图文文案提取"
 slug: "douyin-copy-extract-free"
-version: "1.0.2"
+version: "1.0.3"
 category: "content-tools"
 author: "xxjrq"
 repository: "https://github.com/xxjrq/douyin-copy-extract-free"
